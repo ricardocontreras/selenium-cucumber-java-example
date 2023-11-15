@@ -37,7 +37,7 @@ public class TestOne {
 
     @And("validar titulo de la pagina")
     public void validar_titulo_de_la_pagina(){
-
+        System.out.println("Mensaje");
     }
 
     @Then("el título de la página debe ser {string}")
