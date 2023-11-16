@@ -15,46 +15,65 @@
     </properties>
 
     <dependencies>
+        <!-- Selenium WebDriver para la automatización de navegadores -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.15.0</version>
         </dependency>
+
+        <!-- Cucumber para el soporte de BDD (Behavior-Driven Development) -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>7.14.0</version>
         </dependency>
+
+        <!-- TestNG para ejecución y organización de pruebas -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.8.0</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- WebdriverManager para la gestión automática de controladores de navegadores -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>5.6.2</version>
         </dependency>
+
+        <!-- AssertJ para aserciones más expresivas en pruebas -->
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
             <version>3.24.2</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- Integración de Cucumber con TestNG -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
             <version>7.14.0</version>
         </dependency>
-        <!-- SLF4J es una abstracción para frameworks de logging. -->
+
+        <!-- Lombok para reducir el código boilerplate -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
+        </dependency>
+
+        <!-- SLF4J para abstracción de frameworks de logging -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>2.0.9</version>
         </dependency>
 
-        <!-- Logback Classic y Core proporcionan implementación para SLF4J y configuración de logging. -->
+        <!-- Logback Classic y Core para implementación y configuración de logging -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>

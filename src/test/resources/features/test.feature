@@ -7,7 +7,7 @@ Feature: Validar el menú de navegación en la página de Selenium
     And validar titulo de la pagina
     Then el título de la página debe ser "Selenium"
 
-  @navigation
+  @integración
   Scenario: Verificar la presencia del enlace de Documentación
     Given que abro el navegador
     When navego a "https://www.selenium.dev/"
